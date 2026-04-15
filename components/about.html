@@ -9,154 +9,308 @@
         <span>About Us</span>
       </div>
       <h2 class="section-title">About <span class="text-gradient">Bhrikuti Hospital</span></h2>
-      <div class="about-intro-text" style="display: flex; flex-direction: column; align-items: center; width: 100%;">
-        <div class="reveal-hidden" style="text-align: center; max-width: 850px; margin-bottom: 3rem;">
-          <p class="section-desc" style="margin-bottom: 1.5rem;">
-            <strong>Bhrikuti Hospital Pvt. Ltd.</strong> is a leading multi-specialty healthcare facility dedicated to
-            delivering quality medical services at affordable rates in the eastern region of Nepal.
-          </p>
-          <p class="section-desc" style="margin-bottom: 2rem;">
-            Located in Ward No. 5, Kamal, Jhapa, our hospital addresses critical needs like road traffic injury
-            management, and advanced diagnostics for surrounding districts including Jhapa, Morang, Ilam, Panchthar and
-            others.
-          </p>
-          <div class="bhpl-fullform"
-            style="display: inline-flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 1rem; background: var(--primary-light, rgba(11, 92, 255, 0.05)); padding: 1rem 2rem; border-radius: 50px; border: 1px solid rgba(11, 92, 255, 0.1);">
-            <span style="color: var(--text-color, #333); font-weight: 500;"><strong
-                style="color: var(--primary-color, #0b5cff); font-size: 1.3rem;">B</strong> for Best</span>
-            <span style="color: rgba(0,0,0,0.2);">•</span>
-            <span style="color: var(--text-color, #333); font-weight: 500;"><strong
-                style="color: #10b981; font-size: 1.3rem;">H</strong> for Healthcare</span>
-            <span style="color: rgba(0,0,0,0.2);">•</span>
-            <span style="color: var(--text-color, #333); font-weight: 500;"><strong
-                style="color: #f59e0b; font-size: 1.3rem;">P</strong> for Patient</span>
-            <span style="color: rgba(0,0,0,0.2);">•</span>
-            <span style="color: var(--text-color, #333); font-weight: 500;"><strong
-                style="color: #8b5cf6; font-size: 1.3rem;">L</strong> for Life</span>
-          </div>
+    </div>
+
+    <!-- 1. Intro Area -->
+    <div class="about-hero-container reveal-hidden"
+      style="display: grid; grid-template-columns: 1fr 300px; gap: 2.5rem; margin-bottom: 5rem; align-items: stretch;">
+      <!-- Text Area -->
+      <div
+        style="background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); padding: 3.5rem; border-radius: 2rem; box-shadow: 0 20px 40px rgba(0,0,0,0.04); border: 1px solid rgba(255,255,255,0.6); transition: transform 0.3s ease, box-shadow 0.3s ease; display: flex; flex-direction: column; justify-content: center;"
+        onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 25px 50px rgba(0,0,0,0.08)';"
+        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 20px 40px rgba(0,0,0,0.04)';">
+        <p class="section-desc"
+          style="margin-bottom: 1.5rem; font-size: 1.15rem; line-height: 1.8; color: var(--text-color, #333);">
+          <strong>Bhrikuti Hospital Pvt. Ltd.</strong> is a modern multi-specialty healthcare facility located in Ward
+          No. 5, Kamal, Jhapa. We are committed to providing quality, affordable, and patient-centered medical services
+          to communities across eastern Nepal, including Jhapa, Morang, Ilam, and Panchthar.
+        </p>
+        <p class="section-desc"
+          style="margin-bottom: 1.5rem; font-size: 1.15rem; line-height: 1.8; color: var(--text-color, #333);">
+          Established on <strong>2082-08-22 B.S.</strong> and fully operational since <strong>2082-01-01 B.S.</strong>,
+          the hospital is equipped with modern facilities and advanced diagnostic services. We specialize in essential
+          healthcare needs, including road traffic injury management, ensuring timely and reliable treatment.
+        </p>
+        <p class="section-desc"
+          style="margin-bottom: 0; font-size: 1.15rem; line-height: 1.8; color: var(--text-color, #333);">
+          Led by Chairman <strong>Mr. Buddhiman Thapa</strong> and Executive Director/CEO <strong>Mr. Pratap
+            Karki</strong>,
+          our dedicated team strives to deliver compassionate and efficient care you can trust.
+        </p>
+      </div>
+
+      <!-- BHPL Area -->
+      <div
+        style="background: linear-gradient(145deg, rgba(11, 92, 255, 0.05), rgba(16, 185, 129, 0.05)); backdrop-filter: blur(10px); padding: 2.5rem 2.5rem; border-radius: 2rem; border: 1px solid rgba(11, 92, 255, 0.1); display: flex; flex-direction: column; justify-content: center; gap: 1.8rem; box-shadow: 0 10px 30px rgba(0,0,0,0.03);">
+        <div style="display: flex; align-items: center; gap: 1.2rem;">
+          <div
+            style="width: 55px; height: 55px; border-radius: 14px; background: rgba(11, 92, 255, 0.1); color: var(--primary-color, #0b5cff); display: flex; align-items: center; justify-content: center; font-size: 1.8rem; font-weight: 800; box-shadow: inset 0 2px 4px rgba(255,255,255,0.5);">
+            B</div>
+          <span style="font-size: 1.25rem; font-weight: 600; color: var(--text-color);">for Best</span>
         </div>
-
-        <div class="about-features-container reveal-hidden"
-          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; width: 100%; margin-bottom: 4rem;">
-          <!-- Vision -->
-          <div class="feature-box"
-            style="background: var(--card-bg, #ffffff); border-radius: 1rem; padding: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.05); text-align: left; transition: transform 0.3s ease, box-shadow 0.3s ease; border-top: 4px solid var(--primary-color, #0b5cff);">
-            <div
-              style="display: inline-flex; align-items: center; justify-content: center; width: 50px; height: 50px; border-radius: 50%; background: var(--primary-light, rgba(11, 92, 255, 0.1)); color: var(--primary-color, #0b5cff); font-size: 1.5rem; margin-bottom: 1.5rem;">
-              <i class="fa-solid fa-eye"></i>
-            </div>
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: var(--text-color, #333);">Our
-              Vision</h3>
-            <p style="color: var(--text-light, #666); line-height: 1.6; font-size: 0.95rem; margin: 0;">
-              We envision a society where no one loses their life to curable diseases or accidents, ensuring accessible,
-              high-quality care for all.
-            </p>
-          </div>
-
-          <!-- Mission -->
-          <div class="feature-box"
-            style="background: var(--card-bg, #ffffff); border-radius: 1rem; padding: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.05); text-align: left; transition: transform 0.3s ease, box-shadow 0.3s ease; border-top: 4px solid #10b981;">
-            <div
-              style="display: inline-flex; align-items: center; justify-content: center; width: 50px; height: 50px; border-radius: 50%; background: rgba(16, 185, 129, 0.1); color: #10b981; font-size: 1.5rem; margin-bottom: 1.5rem;">
-              <i class="fa-solid fa-bullseye"></i>
-            </div>
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: var(--text-color, #333);">Our
-              Mission</h3>
-            <p style="color: var(--text-light, #666); line-height: 1.6; font-size: 0.95rem; margin: 0;">
-              Bhrikuti Hospital commits to providing world-class diagnostic and treatment facilities, performing
-              biomedical research, and offering affordable healthcare services.
-            </p>
-          </div>
-
-          <!-- Objectives -->
-          <div class="feature-box"
-            style="background: var(--card-bg, #ffffff); border-radius: 1rem; padding: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.05); text-align: left; transition: transform 0.3s ease, box-shadow 0.3s ease; border-top: 4px solid #f59e0b;">
-            <div
-              style="display: inline-flex; align-items: center; justify-content: center; width: 50px; height: 50px; border-radius: 50%; background: rgba(245, 158, 11, 0.1); color: #f59e0b; font-size: 1.5rem; margin-bottom: 1.5rem;">
-              <i class="fa-solid fa-crosshairs"></i>
-            </div>
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: var(--text-color, #333);">Core
-              Objectives</h3>
-            <ul
-              style="color: var(--text-light, #666); line-height: 1.6; font-size: 0.95rem; padding-left: 1.2rem; margin: 0;">
-              <li style="margin-bottom: 0.5rem;">To operate featuring one minor OT and six advanced modular operating
-                theaters.</li>
-              <li style="margin-bottom: 0.5rem;">Specialize in road traffic injury (RTI) management to save lives.</li>
-              <li>Maintain the highest standards of cleanliness and safety.</li>
-            </ul>
-          </div>
-
-          <!-- Services Overview -->
-          <div class="feature-box"
-            style="background: var(--card-bg, #ffffff); border-radius: 1rem; padding: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.05); text-align: left; transition: transform 0.3s ease, box-shadow 0.3s ease; border-top: 4px solid #8b5cf6;">
-            <div
-              style="display: inline-flex; align-items: center; justify-content: center; width: 50px; height: 50px; border-radius: 50%; background: rgba(139, 92, 246, 0.1); color: #8b5cf6; font-size: 1.5rem; margin-bottom: 1.5rem;">
-              <i class="fa-solid fa-stethoscope"></i>
-            </div>
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: var(--text-color, #333);">
-              Services Overview</h3>
-            <p style="color: var(--text-light, #666); line-height: 1.6; font-size: 0.95rem; margin: 0;">
-              We offer comprehensive care across OPD, emergency (24/7), ICU, medicine, ortho/surgery wards,
-              physiotherapy, USG/X-ray diagnostics, endoscopy, laparoscopy, pediatric, gynecology and more.
-            </p>
-          </div>
+        <div style="display: flex; align-items: center; gap: 1.2rem;">
+          <div
+            style="width: 55px; height: 55px; border-radius: 14px; background: rgba(16, 185, 129, 0.1); color: #10b981; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; font-weight: 800; box-shadow: inset 0 2px 4px rgba(255,255,255,0.5);">
+            H</div>
+          <span style="font-size: 1.25rem; font-weight: 600; color: var(--text-color);">for Healthcare</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 1.2rem;">
+          <div
+            style="width: 55px; height: 55px; border-radius: 14px; background: rgba(245, 158, 11, 0.1); color: #f59e0b; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; font-weight: 800; box-shadow: inset 0 2px 4px rgba(255,255,255,0.5);">
+            P</div>
+          <span style="font-size: 1.25rem; font-weight: 600; color: var(--text-color);">for Patient</span>
+        </div>
+        <div style="display: flex; align-items: center; gap: 1.2rem;">
+          <div
+            style="width: 55px; height: 55px; border-radius: 14px; background: rgba(139, 92, 246, 0.1); color: #8b5cf6; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; font-weight: 800; box-shadow: inset 0 2px 4px rgba(255,255,255,0.5);">
+            L</div>
+          <span style="font-size: 1.25rem; font-weight: 600; color: var(--text-color);">for Life</span>
         </div>
       </div>
     </div>
 
-    <div class="about-grid">
+    <!-- Responsive styles for new bento/cards -->
+    <style>
+      @media (max-width: 992px) {
+        .about-hero-container {
+          grid-template-columns: 1fr !important;
+        }
+
+        .bento-grid {
+          grid-template-columns: 1fr !important;
+          grid-template-areas: "vision" "mission" "objectives" "services" !important;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .bento-services {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .bento-box>div {
+          flex-direction: column;
+          text-align: center;
+          align-items: center !important;
+        }
+      }
+
+      .bento-box {
+        background: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(10px);
+        border-radius: 1.5rem;
+        padding: 2.5rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        overflow: hidden;
+        position: relative;
+      }
+
+      .bento-box:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 25px 45px rgba(0, 0, 0, 0.08);
+      }
+
+      .bento-box::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+      }
+
+      .bento-vision::before {
+        background: linear-gradient(90deg, #0b5cff, #3b82f6);
+      }
+
+      .bento-mission::before {
+        background: linear-gradient(90deg, #10b981, #34d399);
+      }
+
+      .bento-objectives::before {
+        background: linear-gradient(90deg, #f59e0b, #fbbf24);
+      }
+
+      .bento-services::before {
+        background: linear-gradient(90deg, #8b5cf6, #a78bfa);
+      }
+
+      .profile-card {
+        background: #fff;
+        border-radius: 2rem;
+        padding: 3rem 2rem;
+        text-align: center;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.04);
+        border: 1px solid rgba(0, 0, 0, 0.02);
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+      }
+
+      .profile-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.08);
+      }
+
+      .profile-card::after {
+        content: "\f10d";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        font-size: 8rem;
+        color: rgba(11, 92, 255, 0.03);
+        z-index: -1;
+        transform: rotate(10deg);
+      }
+
+      .profile-icon-wrap {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: 0 auto 1.5rem;
+        background: linear-gradient(135deg, rgba(11, 92, 255, 0.1), rgba(11, 92, 255, 0.2));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5rem;
+        color: #0b5cff;
+        border: 4px solid #fff;
+        box-shadow: 0 10px 20px rgba(11, 92, 255, 0.1);
+      }
+
+      .profile-quote {
+        font-style: italic;
+        color: #555;
+        line-height: 1.7;
+        font-size: 1.05rem;
+      }
+    </style>
+
+    <!-- 2. Features Bento Grid -->
+    <div class="bento-grid reveal-hidden"
+      style="display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: auto auto; gap: 2rem; grid-template-areas: 'vision vision objectives' 'mission mission objectives' 'services services services'; margin-bottom: 6rem;">
+
+      <!-- Vision (Span 2 cols) -->
+      <div class="bento-box bento-vision" style="grid-area: vision;">
+        <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+          <div
+            style="flex-shrink: 0; width: 60px; height: 60px; border-radius: 16px; background: rgba(11, 92, 255, 0.1); color: #0b5cff; display: flex; align-items: center; justify-content: center; font-size: 1.8rem;">
+            <i class="fa-solid fa-eye"></i>
+          </div>
+          <div>
+            <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--text-color);">Our Vision
+            </h3>
+            <p style="color: var(--text-light, #666); line-height: 1.6; font-size: 1.05rem; margin: 0;">
+              We envision a society where no one loses their life to curable diseases or accidents, ensuring accessible,
+              high-quality care for all.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mission (Span 2 cols) -->
+      <div class="bento-box bento-mission" style="grid-area: mission;">
+        <div style="display: flex; align-items: flex-start; gap: 1.5rem;">
+          <div
+            style="flex-shrink: 0; width: 60px; height: 60px; border-radius: 16px; background: rgba(16, 185, 129, 0.1); color: #10b981; display: flex; align-items: center; justify-content: center; font-size: 1.8rem;">
+            <i class="fa-solid fa-bullseye"></i>
+          </div>
+          <div>
+            <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--text-color);">Our
+              Mission</h3>
+            <p style="color: var(--text-light, #666); line-height: 1.6; font-size: 1.05rem; margin: 0;">
+              Bhrikuti Hospital commits to providing world-class diagnostic and treatment facilities, performing
+              biomedical research, and offering affordable healthcare services.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Objectives (Taller, 2 rows) -->
+      <div class="bento-box bento-objectives" style="grid-area: objectives; display: flex; flex-direction: column;">
+        <div
+          style="width: 60px; height: 60px; border-radius: 16px; background: rgba(245, 158, 11, 0.1); color: #f59e0b; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; margin-bottom: 1.5rem;">
+          <i class="fa-solid fa-crosshairs"></i>
+        </div>
+        <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 1rem; color: var(--text-color);">Core Objectives
+        </h3>
+        <ul
+          style="color: var(--text-light, #666); line-height: 1.7; font-size: 1rem; padding-left: 1.2rem; margin: 0; display: flex; flex-direction: column; gap: 0.8rem;">
+          <li>To operate featuring one minor OT and six advanced modular operating theaters.</li>
+          <li>Specialize in road traffic injury (RTI) management to save lives.</li>
+          <li>Maintain the highest standards of cleanliness, safety, and operational excellence.</li>
+        </ul>
+      </div>
+
+      <!-- Services Overview (Full width bottom row) -->
+      <div class="bento-box bento-services" style="grid-area: services; display: flex; align-items: center; gap: 2rem;">
+        <div
+          style="flex-shrink: 0; width: 80px; height: 80px; border-radius: 20px; background: linear-gradient(135deg, #8b5cf6, #a78bfa); color: #fff; display: flex; align-items: center; justify-content: center; font-size: 2.2rem; box-shadow: 0 10px 20px rgba(139, 92, 246, 0.3);">
+          <i class="fa-solid fa-stethoscope"></i>
+        </div>
+        <div>
+          <h3 style="font-size: 1.6rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--text-color);">
+            Comprehensive Services</h3>
+          <p style="color: var(--text-light, #666); line-height: 1.6; font-size: 1.1rem; margin: 0;">
+            We offer comprehensive care across OPD, emergency (24/7), ICU, medicine, ortho/surgery wards, physiotherapy,
+            USG/X-ray diagnostics, endoscopy, laparoscopy, pediatric, gynecology, and more.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 3. Leadership Team -->
+    <div class="section-header reveal-hidden" style="margin-bottom: 3rem;">
+      <h2 class="section-title">Hospital <span class="text-gradient">Leadership</span></h2>
+    </div>
+
+    <div class="about-grid"
+      style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem;">
       <!-- Chairman -->
-      <div class="about-card reveal-hidden">
-        <div class="about-image-wrapper">
-          <div class="about-image-inner">
-            <div class="about-icon"><i class="fa-solid fa-user-tie"></i></div>
-          </div>
-          <div class="about-badge">Chairman</div>
+      <div class="profile-card reveal-hidden">
+        <div class="profile-icon-wrap">
+          <i class="fa-solid fa-user-tie"></i>
         </div>
-        <div class="about-content">
-          <h3 class="about-name">Buddhiman Thapa</h3>
-          <div class="about-quote">
-            <i class="fa-solid fa-quote-left quote-mark"></i>
-            <p>"Our core mission is to elevate the standard of healthcare in Nepal by fostering a culture of compassion,
-              advanced medical practices, and community-first service."</p>
-          </div>
-        </div>
+        <div
+          style="display: inline-block; background: rgba(11, 92, 255, 0.1); color: #0b5cff; padding: 0.4rem 1.2rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 1.5rem;">
+          Chairman</div>
+        <h3 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 1.5rem; color: #222;">Buddhiman Thapa</h3>
+        <p class="profile-quote">"Our core mission is to elevate the standard of healthcare in Nepal by fostering a
+          culture of compassion, advanced medical practices, and community-first service."</p>
       </div>
 
-      <!-- CEO -->
-      <div class="about-card reveal-hidden" style="transition-delay: 0.2s;">
-        <div class="about-image-wrapper">
-          <div class="about-image-inner">
-            <div class="about-icon"><i class="fa-solid fa-user-tie"></i></div>
-          </div>
-          <div class="about-badge">Executive Director</div>
+      <!-- Exec Dir -->
+      <div class="profile-card reveal-hidden" style="transition-delay: 0.1s;">
+        <div class="profile-icon-wrap"
+          style="background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.2)); color: #10b981; box-shadow: 0 10px 20px rgba(16, 185, 129, 0.1);">
+          <i class="fa-solid fa-user-tie"></i>
         </div>
-        <div class="about-content">
-          <h3 class="about-name">Pratap Karki</h3>
-          <div class="about-quote">
-            <i class="fa-solid fa-quote-left quote-mark"></i>
-            <p>"At Bhrikuti Hospital, we blend operational excellence with a patient-centric approach. Our team works
-              tirelessly to ensure a safe and supportive healing environment."</p>
-          </div>
-        </div>
+        <div
+          style="display: inline-block; background: rgba(16, 185, 129, 0.1); color: #10b981; padding: 0.4rem 1.2rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 1.5rem;">
+          Executive Director</div>
+        <h3 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 1.5rem; color: #222;">Pratap Karki</h3>
+        <p class="profile-quote">"At Bhrikuti Hospital, we blend operational excellence with a patient-centric approach.
+          Our team works tirelessly to ensure a safe and supportive healing environment."</p>
       </div>
 
-      <!--  Director -->
-      <div class="about-card reveal-hidden" style="transition-delay: 0.2s;">
-        <div class="about-image-wrapper">
-          <div class="about-image-inner">
-            <div class="about-icon"><i class="fa-solid fa-user-tie"></i></div>
-          </div>
-          <div class="about-badge">Director</div>
+      <!-- Director -->
+      <div class="profile-card reveal-hidden" style="transition-delay: 0.2s;">
+        <div class="profile-icon-wrap"
+          style="background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(245, 158, 11, 0.2)); color: #f59e0b; box-shadow: 0 10px 20px rgba(245, 158, 11, 0.1);">
+          <i class="fa-solid fa-user-tie"></i>
         </div>
-        <div class="about-content">
-          <h3 class="about-name">Nasim Karki</h3>
-          <div class="about-quote">
-            <i class="fa-solid fa-quote-left quote-mark"></i>
-            <p>"We believe that true healing goes beyond medical treatments. It's about building trust, providing
-              unwavering support, and empowering our patients."</p>
-          </div>
-        </div>
+        <div
+          style="display: inline-block; background: rgba(245, 158, 11, 0.1); color: #f59e0b; padding: 0.4rem 1.2rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 1.5rem;">
+          Director</div>
+        <h3 style="font-size: 1.6rem; font-weight: 800; margin-bottom: 1.5rem; color: #222;">Nasim Karki</h3>
+        <p class="profile-quote">"We believe that true healing goes beyond medical treatments. It's about building
+          trust, providing unwavering support, and empowering our patients."</p>
       </div>
     </div>
   </div>
